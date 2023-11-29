@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<!-- Todo este código es generado por el SceneBuilder al crear las diferentes opciones que se han solicitado en la tarea, 
+como podemos ver hay dos label, un textfield y un button, aqui aparte tmb muestra el tamaño color, etc. -->
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="249.0" prefWidth="465.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <TextField fx:id="usernameInput" layoutX="124.0" layoutY="65.0" prefHeight="34.0" prefWidth="266.0" promptText="Ingresa tu nombre" />
+      <Label fx:id="greetingLabelito" layoutX="53.0" layoutY="69.0" prefHeight="25.0" prefWidth="63.0" text="Nombre:" />
+      <Button fx:id="greetButton" layoutX="209.0" layoutY="135.0" mnemonicParsing="false" onAction="#oneclick" text="Saludar" />
+      <Label fx:id="greetingLabel" accessibleRole="HYPERLINK" layoutX="139.0" layoutY="167.0" prefHeight="34.0" prefWidth="225.0" />
+   </children>
+</AnchorPane>
